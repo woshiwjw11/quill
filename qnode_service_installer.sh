@@ -125,7 +125,7 @@ Restart=always
 RestartSec=5s
 WorkingDirectory=$NODE_PATH
 ExecStart=$EXEC_START
-CPUQuota=700%
+CPUQuota=800%
 
 [Install]
 WantedBy=multi-user.target
